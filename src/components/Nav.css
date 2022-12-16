@@ -1,0 +1,28 @@
+#logoHenry {
+  margin-right: 20px;
+}
+.navbar_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  height: 4.5rem;
+}
+
+.titulo_pagina {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  margin-left: 4rem;
+}
+
+.searchbar {
+  margin-right: 4rem;
+}
