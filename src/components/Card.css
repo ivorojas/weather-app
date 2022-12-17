@@ -1,7 +1,10 @@
 .card {
   margin: 20px;
   width: 18rem;
-  height: 12rem;
+  height: 20rem;
+  background-color: transparent;
+  border: 1px white solid;
+  color: white;
 }
 
 .card-title {
@@ -18,4 +21,24 @@
 .card-body {
   margin-top: 0px !important;
   padding-top: 0px !important;
+}
+
+.card_container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.temp_content h4{
+  font-size: 4.5rem;
+}
+.max_min_content {
+  display: flex;
+  flex-direction: row;
+}
+
+.min {
+  margin-right: 0.2rem;
 }

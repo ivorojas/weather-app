@@ -12,7 +12,7 @@ function Nav({onSearch}) {
     <div className="titulo_pagina">
     <Link to='/'>
       <div className='logo' >
-      <img id="logoHenry" src={clima} width="30" height="30" alt="" />
+      <img id="logoHenry" src={clima} width="30" height="30" alt="" className='logo_image' />
       <h4> Weather App - Ivo Rojas</h4>
       </div>
       </Link>

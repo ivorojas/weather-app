@@ -1,8 +1,36 @@
 .App {
   text-align: center;
+  /*background-color: aliceblue;*/
+    /*background-image: linear-gradient(#ffffff, #529ff8);*/
+    background-image: url('../img/weather-background.jpg');
+    background-size: cover;
+min-height: 100vh;
 }
 
 .row {
   display: flex;
   justify-content: center;
+}
+
+
+
+.loader {
+  display: flex;
+ flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 16rem;
+/*color: #090a2e;*/
+color: white;
+
+}
+.loader h4{
+font-size: 1.7rem;
+margin: 0.6rem;
+}
+
+.container_loader_cards {
+  max-height: 100vh;
 }

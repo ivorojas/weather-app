@@ -3,9 +3,8 @@ import "./App.css";
 import Nav from "../components/Nav.jsx";
 import Cards from "../components/Cards.jsx";
 import { Route, Routes } from "react-router-dom";
-import About from "../components/About.jsx";
 import Ciudad from "../components/Ciudad";
-
+import loader from "../img/loader.png";
 const apiKey = "4ae2636d8dfbdc3044bede63951a019b";
 
 function App() {
@@ -58,7 +57,13 @@ function App() {
           element={<Ciudad cities={cities} />}
         />
       </Routes>
-      <div>
+      <div className="container_loader_cards">
+        {cities.length === 0 ? (
+          <div className="loader">
+            {/*<img src={loader} width="350px" />*/}
+            <h4>Search for a city!</h4>
+          </div>
+        ) : null}
         <Cards cities={cities} onClose={onClose} />
       </div>
     </div>
