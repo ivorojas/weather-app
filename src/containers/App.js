@@ -4,7 +4,6 @@ import Nav from "../components/Nav.jsx";
 import Cards from "../components/Cards.jsx";
 import { Route, Routes } from "react-router-dom";
 import Ciudad from "../components/Ciudad";
-import loader from "../img/loader.png";
 const apiKey = "4ae2636d8dfbdc3044bede63951a019b";
 
 function App() {
@@ -39,6 +38,7 @@ function App() {
         }
       });
   }
+  /*
   function onFilter(ciudadId) {
     let ciudad = cities.filter((c) => c.id === parseInt(ciudadId));
     if (ciudad.length > 0) {
@@ -46,7 +46,7 @@ function App() {
     } else {
       return null;
     }
-  }
+  }*/
   return (
     <div className="App">
       <Routes>
